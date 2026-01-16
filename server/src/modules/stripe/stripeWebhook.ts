@@ -2,9 +2,7 @@ import type { Request, Response } from "express";
 import Stripe from "stripe";
 import rentRepository from "../rent/rentRepository";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
-  apiVersion: "2025-06-30.basil",
-});
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string);
 
 const stripeWebhook = async (req: Request, res: Response): Promise<void> => {
   const sig = req.headers["stripe-signature"] as string;

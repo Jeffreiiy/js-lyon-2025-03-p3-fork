@@ -1,0 +1,5 @@
+const resultat= (a-b)
+
+function soustraction(a,b){
+return resultat;
+}
