@@ -107,7 +107,7 @@ function CreateUser() {
         <div className="credentials-input">
           <label htmlFor="lastname">Nom de famille</label>
           <input
-            placeholder="Votre email"
+            placeholder="Votre nom de famille"
             type="text"
             id="input-lastname"
             name="lastname"

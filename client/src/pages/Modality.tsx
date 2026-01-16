@@ -7,7 +7,7 @@ function Modality() {
         Conditions Générales d’Utilisation (CGU)
       </h1>
       <p className="mb-6 italic">
-        Service de location de vaisseaux – Externatic
+        Service de location de vaisseaux – Externalship
       </p>
 
       <section className="mb-6">
@@ -15,8 +15,8 @@ function Modality() {
         <p>
           Les présentes Conditions Générales d’Utilisation (CGU) régissent
           l’accès et l’utilisation de la plateforme
-          <strong> Externatic </strong> (ci-après « la Plateforme »), un service
-          de location de vaisseaux spatiaux destiné aux utilisateurs
+          <strong> Externalship </strong> (ci-après « la Plateforme »), un
+          service de location de vaisseaux spatiaux destiné aux utilisateurs
           particuliers ou professionnels. En accédant à la Plateforme et en
           utilisant ses services, l’utilisateur accepte expressément et sans
           réserve l’ensemble des présentes CGU.
@@ -139,10 +139,10 @@ function Modality() {
           Pour toute question, contactez-nous :
           <br />📧{" "}
           <a
-            href="mailto:support@externatic.space"
+            href="mailto:support@externalship.space"
             className="text-blue-600 underline"
           >
-            support@externatic.space
+            support@externalship.space
           </a>
           <br />📍 42, Rue des Étoiles, 69000 Lyon, France
         </p>

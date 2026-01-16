@@ -49,7 +49,7 @@ const shipAvailable: RequestHandler = async (req, res, next) => {
   }
 };
 
-/* Setting up Multer and and the target repository */
+/* Setting up Multer and the target repository */
 const storage = multer.diskStorage({
   //indicate the route to our upload folder from this file
   destination: path.join(__dirname, "../../../upload"),
