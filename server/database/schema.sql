@@ -39,4 +39,4 @@ values
 
   insert into user (id, firstname, lastname, email, hashed_password, is_admin)
   values
-  (1, "Ad", "Min", "test@test.com", "$argon2id$v=19$m=19456,t=2,p=1$GVpZNGth5OIb9A3Z+PE3LA$ldaza/bh5hi9efVHluwDibMmAJ1buNfNCAS51xCKfE0", 1);
+  (1, "admin", "doe", "test@test.fr", "$argon2id$v=19$m=19456,t=2,p=1$X/D8L8NpCXz7UJ11tQst2Q$JTo/8G5i0zKBYMqNQSpMaWeNGjuSO0YY+pY7aoXaggI", 1);
